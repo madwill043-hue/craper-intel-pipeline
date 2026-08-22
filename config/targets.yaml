@@ -1,0 +1,32 @@
+# targets.yaml
+#
+# Add one entry per competitor page you want to monitor.
+# `collector_id` comes from running:
+#     bdata scraper create <url> "<the data you want>"
+# It will print a Collector ID like `c_8f2a...`. Paste it here.
+#
+# Rule of thumb (per hackathon rules): pick LONG-TAIL targets.
+# If Bright Data already ships a pre-built scraper for the site,
+# judges will ask why you didn't just use that. Regional SaaS tools,
+# indie dev tools, niche B2B products, docs/changelog pages > big-name sites.
+
+targets:
+  - name: "plausible-pricing"
+    url: "https://plausible.io/#pricing"
+    collector_id: "c_mt4ke2eh1myne6m0be"
+    extract: "pricing tiers, price per tier, features per tier, billing period"
+    category: pricing
+
+  - name: "resend-pricing"
+    url: "https://resend.com/pricing"
+    collector_id: "c_mt4knky41zjhl74x8f"
+    extract: "pricing tiers, price per tier, features included per tier, email volume limits"
+    category: pricing
+
+  - name: "trigger-dev-pricing"
+    url: "https://trigger.dev/pricing"
+    collector_id: "c_mt4kub4t1m8iizwwia"
+    extract: "pricing tiers, price per tier, features included per tier"
+    category: pricing
+
+# Add 2-5 total. More than 5 makes the demo harder to narrate in a short video.
