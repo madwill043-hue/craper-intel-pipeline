@@ -1,9 +1,8 @@
 name: Weekly Competitor Intel Scrape
 on:
   schedule:
-    # Every Monday at 06:00 UTC. Adjust to taste.
     - cron: "0 6 * * 1"
-  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
+  workflow_dispatch: {}
 jobs:
   scrape-diff-alert:
     runs-on: ubuntu-latest
@@ -22,8 +21,10 @@ jobs:
           python-version: "3.11"
       - name: Install Python deps
         run: pip install pyyaml requests
+      - name: Install Bright Data CLI globally
+        run: npm install -g @brightdata/cli
       - name: Authenticate Bright Data CLI
-        run: npx -p @brightdata/cli bdata login --api-key "${{ secrets.BRIGHTDATA_API_KEY }}"
+        run: bdata login --api-key "${{ secrets.BRIGHTDATA_API_KEY }}"
       - name: Run scrape pipeline
         run: python scripts/run_pipeline.py
       - name: Diff against last snapshot
@@ -37,4 +38,5 @@ jobs:
           git config user.name "scraper-bot"
           git config user.email "scraper-bot@users.noreply.github.com"
           git add data/
-          git diff
+          git diff --cached --quiet || git commit -m "chore: weekly snapshot $(date -u +%F)"
+          git push
