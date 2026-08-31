@@ -1,0 +1,111 @@
+{
+  "target": "trigger-dev-pricing",
+  "captured_at": "2026-08-31T06:10:17.900866Z",
+  "data": [
+    {
+      "pricing_tiers": [
+        {
+          "tier_name": "Free",
+          "price": {
+            "value": 0,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "price_period": "/month",
+          "cta_text": "Get started",
+          "cta_url": "https://cloud.trigger.dev/",
+          "features": [
+            "$ 5 / month free credits",
+            "20 concurrent runs",
+            "Unlimited tasks",
+            "5 team members",
+            "Dev and Prod environments",
+            "Preview branches",
+            "Custom dashboards",
+            "10 schedules",
+            "1 day log retention",
+            "1 day query period",
+            "Community support",
+            "1 alert destination",
+            "10 concurrent Realtime connections"
+          ]
+        },
+        {
+          "tier_name": "Hobby",
+          "price": {
+            "value": 10,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "price_period": "/month",
+          "cta_text": "Get started",
+          "cta_url": "https://cloud.trigger.dev/",
+          "features": [
+            "$ 10 / month credits included",
+            "50 concurrent runs",
+            "Unlimited tasks",
+            "5 team members",
+            "Dev, Preview and Prod environments",
+            "5 preview branches",
+            "1 custom dashboard",
+            "100 schedules",
+            "7 day log retention",
+            "7 days query period",
+            "Community support",
+            "3 alert destinations",
+            "150 concurrent Realtime connections",
+            "HIPAA BAA add-on Request a BAA"
+          ]
+        },
+        {
+          "tier_name": "Pro",
+          "price": {
+            "value": 50,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "price_period": "/month",
+          "cta_text": "Get started",
+          "cta_url": "https://cloud.trigger.dev/",
+          "features": [
+            "$ 50 / month credits included",
+            "200 + concurrent runs Then $10/month per 50",
+            "Unlimited tasks",
+            "25 + team members Then $20/month per seat",
+            "Dev, Preview and Prod environments",
+            "20 + preview branches Then $10/month per branch",
+            "5 + custom dashboards Then $10/month per dashboard",
+            "1000 + schedules Then $10/month per 1,000",
+            "30 day log retention",
+            "30 days query period",
+            "Dedicated Slack support",
+            "100 + alert destinations",
+            "1000 + concurrent Realtime connections Then $10/month per 1,000",
+            "AWS PrivateLink",
+            "HIPAA BAA add-on Request a BAA"
+          ]
+        },
+        {
+          "tier_name": "Enterprise",
+          "cta_text": "Contact us",
+          "cta_url": "https://trigger.dev/enterprise",
+          "features": [
+            "Custom discounts",
+            "All Pro plan features +",
+            "Custom log retention",
+            "Priority support",
+            "Role-based access control (RBAC)",
+            "SOC 2 report",
+            "Penetration test report",
+            "Single sign-on (SSO)",
+            "HIPAA BAA add-on Request a BAA"
+          ]
+        }
+      ],
+      "product_page_url": "https://trigger.dev/pricing",
+      "input": {
+        "url": "https://trigger.dev/pricing"
+      }
+    }
+  ]
+}
