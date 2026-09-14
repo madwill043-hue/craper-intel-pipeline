@@ -1,0 +1,13 @@
+{
+  "target": "resend-pricing",
+  "captured_at": "2026-09-14T12:24:29.107682Z",
+  "data": [
+    {
+      "pricing_tiers": [],
+      "product_page_url": "https://resend.com/pricing",
+      "input": {
+        "url": "https://resend.com/pricing"
+      }
+    }
+  ]
+}
