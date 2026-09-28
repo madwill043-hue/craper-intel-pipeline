@@ -1,0 +1,115 @@
+{
+  "target": "plausible-pricing",
+  "captured_at": "2026-09-28T13:30:09.822963Z",
+  "data": [
+    {
+      "pricing_tiers": [
+        {
+          "tier_name": "Starter",
+          "monthly_price": {
+            "value": 9,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_price": {
+            "value": 90,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_monthly_equivalent": {
+            "value": 7.5,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "features": [
+            "One site",
+            "3 years of data retention",
+            "Intuitive, fast and privacy-friendly dashboard",
+            "Email/Slack reports",
+            "Google Analytics import",
+            "Goals and custom events",
+            "Saved Segments",
+            "Annotations"
+          ]
+        },
+        {
+          "tier_name": "Growth",
+          "monthly_price": {
+            "value": 14,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_price": {
+            "value": 140,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_monthly_equivalent": {
+            "value": 11.67,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "features": [
+            "Everything in Starter",
+            "Up to 3 sites",
+            "Up to 3 team members",
+            "Team Management",
+            "Shared Links",
+            "Embedded Dashboards",
+            "Shared Segments",
+            "Shared Annotations"
+          ]
+        },
+        {
+          "tier_name": "Business",
+          "monthly_price": {
+            "value": 19,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_price": {
+            "value": 190,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "yearly_monthly_equivalent": {
+            "value": 15.83,
+            "currency": "USD",
+            "symbol": "$"
+          },
+          "features": [
+            "Everything in Growth",
+            "Up to 10 sites",
+            "Up to 10 team members",
+            "5 years of data retention",
+            "Custom Properties",
+            "Stats API (600 requests per hour)",
+            "Data Studio Connector",
+            "Ecommerce revenue attribution",
+            "Funnels and user journeys",
+            "Consolidated View"
+          ]
+        },
+        {
+          "tier_name": "Enterprise",
+          "features": [
+            "Everything in Business",
+            "10+ sites",
+            "10+ team members",
+            "600+ Stats API requests per hour",
+            "Sites API access",
+            "Single Sign-On (SSO)",
+            "Managed Proxy",
+            "Scheduled raw event data exports",
+            "5+ years of data retention",
+            "Priority support"
+          ]
+        }
+      ],
+      "product_page_url": "https://plausible.io/#pricing",
+      "input": {
+        "url": "https://plausible.io/#pricing"
+      }
+    }
+  ]
+}
