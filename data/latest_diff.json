@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "target": "trigger-dev-pricing",
+    "compared": "2026-09-28 -> 2026-10-05",
+    "change_count": 3,
+    "changes": [
+      {
+        "field": "[0].pricing_tiers[0].cta_url",
+        "old": "https://cloud.trigger.dev/",
+        "new": "https://cloud.trigger.dev/login?source=site_get_started"
+      },
+      {
+        "field": "[0].pricing_tiers[1].cta_url",
+        "old": "https://cloud.trigger.dev/",
+        "new": "https://cloud.trigger.dev/login?source=site_get_started"
+      },
+      {
+        "field": "[0].pricing_tiers[2].cta_url",
+        "old": "https://cloud.trigger.dev/",
+        "new": "https://cloud.trigger.dev/login?source=site_get_started"
+      }
+    ]
+  }
+]
