@@ -1,6 +1,6 @@
 {
   "target": "trigger-dev-pricing",
-  "captured_at": "2026-10-05T14:13:39.826535Z",
+  "captured_at": "2026-10-12T15:02:18.337317Z",
   "data": [
     {
       "pricing_tiers": [
@@ -15,6 +15,7 @@
           "cta_text": "Get started",
           "cta_url": "https://cloud.trigger.dev/login?source=site_get_started",
           "features": [
+            "No credit card required",
             "$ 5 / month free credits",
             "20 concurrent runs",
             "Unlimited tasks",
