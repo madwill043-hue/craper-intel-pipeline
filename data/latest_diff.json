@@ -1,78 +1,18 @@
 [
   {
     "target": "trigger-dev-pricing",
-    "compared": "2026-10-05 -> 2026-10-12",
-    "change_count": 14,
+    "compared": "2026-10-12 -> 2026-10-19",
+    "change_count": 2,
     "changes": [
       {
-        "field": "[0].pricing_tiers[0].features[0]",
-        "old": "$ 5 / month free credits",
-        "new": "No credit card required"
+        "field": "[0].pricing_tiers[1].features[13]",
+        "old": "HIPAA BAA add-on Request a BAA",
+        "new": "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
       },
       {
-        "field": "[0].pricing_tiers[0].features[10]",
-        "old": "Community support",
-        "new": "1 day query period"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[11]",
-        "old": "1 alert destination",
-        "new": "Community support"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[12]",
-        "old": "10 concurrent Realtime connections",
-        "new": "1 alert destination"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[13]",
-        "old": "<missing>",
-        "new": "10 concurrent Realtime connections"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[1]",
-        "old": "20 concurrent runs",
-        "new": "$ 5 / month free credits"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[2]",
-        "old": "Unlimited tasks",
-        "new": "20 concurrent runs"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[3]",
-        "old": "5 team members",
-        "new": "Unlimited tasks"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[4]",
-        "old": "Dev and Prod environments",
-        "new": "5 team members"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[5]",
-        "old": "Preview branches",
-        "new": "Dev and Prod environments"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[6]",
-        "old": "Custom dashboards",
-        "new": "Preview branches"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[7]",
-        "old": "10 schedules",
-        "new": "Custom dashboards"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[8]",
-        "old": "1 day log retention",
-        "new": "10 schedules"
-      },
-      {
-        "field": "[0].pricing_tiers[0].features[9]",
-        "old": "1 day query period",
-        "new": "1 day log retention"
+        "field": "[0].pricing_tiers[2].features[14]",
+        "old": "HIPAA BAA add-on Request a BAA",
+        "new": "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
       }
     ]
   }

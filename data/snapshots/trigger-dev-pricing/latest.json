@@ -1,6 +1,6 @@
 {
   "target": "trigger-dev-pricing",
-  "captured_at": "2026-10-12T15:02:18.337317Z",
+  "captured_at": "2026-10-19T12:45:37.083721Z",
   "data": [
     {
       "pricing_tiers": [
@@ -55,7 +55,7 @@
             "Community support",
             "3 alert destinations",
             "150 concurrent Realtime connections",
-            "HIPAA BAA add-on Request a BAA"
+            "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
           ]
         },
         {
@@ -83,7 +83,7 @@
             "100 + alert destinations",
             "1000 + concurrent Realtime connections Then $10/month per 1,000",
             "AWS PrivateLink",
-            "HIPAA BAA add-on Request a BAA"
+            "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
           ]
         },
         {
