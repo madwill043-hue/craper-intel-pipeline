@@ -1,18 +1,58 @@
 [
   {
-    "target": "trigger-dev-pricing",
-    "compared": "2026-10-12 -> 2026-10-19",
-    "change_count": 2,
+    "target": "plausible-pricing",
+    "compared": "2026-10-19 -> 2026-10-26",
+    "change_count": 10,
     "changes": [
       {
-        "field": "[0].pricing_tiers[1].features[13]",
-        "old": "HIPAA BAA add-on Request a BAA",
-        "new": "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
+        "field": "[0].pricing_tiers[0].features[1]",
+        "old": "3 years of data retention",
+        "new": "No retention limit"
       },
       {
-        "field": "[0].pricing_tiers[2].features[14]",
-        "old": "HIPAA BAA add-on Request a BAA",
-        "new": "HIPAA BAA add-on $500/month \u00b7 Request a BAA"
+        "field": "[0].pricing_tiers[2].features[3]",
+        "old": "5 years of data retention",
+        "new": "Custom Properties"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[4]",
+        "old": "Custom Properties",
+        "new": "Stats API (600 requests per hour)"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[5]",
+        "old": "Stats API (600 requests per hour)",
+        "new": "Data Studio Connector"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[6]",
+        "old": "Data Studio Connector",
+        "new": "Ecommerce revenue attribution"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[7]",
+        "old": "Ecommerce revenue attribution",
+        "new": "Funnels and user journeys"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[8]",
+        "old": "Funnels and user journeys",
+        "new": "Consolidated View"
+      },
+      {
+        "field": "[0].pricing_tiers[2].features[9]",
+        "old": "Consolidated View",
+        "new": "<missing>"
+      },
+      {
+        "field": "[0].pricing_tiers[3].features[8]",
+        "old": "5+ years of data retention",
+        "new": "Priority support"
+      },
+      {
+        "field": "[0].pricing_tiers[3].features[9]",
+        "old": "Priority support",
+        "new": "<missing>"
       }
     ]
   }

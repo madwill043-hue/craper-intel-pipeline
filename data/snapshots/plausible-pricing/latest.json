@@ -1,6 +1,6 @@
 {
   "target": "plausible-pricing",
-  "captured_at": "2026-10-19T12:45:27.785776Z",
+  "captured_at": "2026-10-26T12:38:28.423375Z",
   "data": [
     {
       "pricing_tiers": [
@@ -23,7 +23,7 @@
           },
           "features": [
             "One site",
-            "3 years of data retention",
+            "No retention limit",
             "Intuitive, fast and privacy-friendly dashboard",
             "Email/Slack reports",
             "Google Analytics import",
@@ -81,7 +81,6 @@
             "Everything in Growth",
             "Up to 10 sites",
             "Up to 10 team members",
-            "5 years of data retention",
             "Custom Properties",
             "Stats API (600 requests per hour)",
             "Data Studio Connector",
@@ -101,7 +100,6 @@
             "Single Sign-On (SSO)",
             "Managed Proxy",
             "Scheduled raw event data exports",
-            "5+ years of data retention",
             "Priority support"
           ]
         }
